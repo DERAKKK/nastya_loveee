@@ -1,0 +1,35 @@
+.love{
+    &__content{
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    &__button{
+        button{
+            cursor: pointer;
+            color: bisque;
+            background-color: rgb(153, 130, 255);
+            font-family: 'Kanit', sans-serif;
+            font-size: 20px;
+            font-weight: 900;
+            font-style: 'kanit';
+            padding: 20px 60px;
+            border: 2px solid rgb(161, 179, 233);
+            border-radius: 10px;
+        }
+
+        button:hover{
+            background-color: bisque;
+            color: rgb(153, 130, 255);
+        }
+        
+        
+    }
+}
+
+.love.fire{
+    display: none;
+}

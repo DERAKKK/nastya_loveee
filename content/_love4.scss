@@ -1,0 +1,39 @@
+.love4{
+    display: none;
+}
+
+.love4.fire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.love4__text{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    max-width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(230, 212, 255);
+    border-radius: 5px;
+    border: 2px solid rgb(201, 186, 255);
+    font-size: 20px;
+    color: bisque;
+
+    h1{
+        margin-bottom: 0px;
+
+    }
+}
+
+.love4__stih{
+    -webkit-text-stroke: 0px black;
+    margin-top: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align-last: left;
+}

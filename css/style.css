@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.love__content {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.love__button button {
+  cursor: pointer;
+  color: bisque;
+  background-color: rgb(153, 130, 255);
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: "kanit";
+  padding: 20px 60px;
+  border: 2px solid rgb(161, 179, 233);
+  border-radius: 10px;
+}
+.love__button button:hover {
+  background-color: bisque;
+  color: rgb(153, 130, 255);
+}
+
+.love.fire {
+  display: none;
+}
+
+.love2 {
+  display: none;
+}
+
+.love2.fire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 800px;
+}
+
+.love2__button button {
+  cursor: pointer;
+  color: bisque;
+  background-color: rgb(153, 130, 255);
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: "kanit";
+  padding: 20px 60px;
+  border: 2px solid rgb(161, 179, 233);
+  border-radius: 10px;
+}
+.love2__button button:hover {
+  background-color: bisque;
+  color: rgb(153, 130, 255);
+}
+
+.love3 {
+  display: none;
+}
+
+.love3.fire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 800px;
+}
+
+.love3__button button {
+  cursor: pointer;
+  color: bisque;
+  background-color: rgb(153, 130, 255);
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: "kanit";
+  padding: 20px 60px;
+  border: 2px solid rgb(161, 179, 233);
+  border-radius: 10px;
+}
+.love3__button button:hover {
+  background-color: bisque;
+  color: rgb(153, 130, 255);
+}
+
+.love4 {
+  display: none;
+}
+
+.love4.fire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 800px;
+}
+
+.love4__text {
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  max-width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(230, 212, 255);
+  border-radius: 5px;
+  border: 2px solid rgb(201, 186, 255);
+  font-size: 20px;
+  color: bisque;
+}
+.love4__text h1 {
+  margin-bottom: 0px;
+}
+
+.love4__stih {
+  -webkit-text-stroke: 0px black;
+  margin-top: 1px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+
+body {
+  background-image: url(../img/hearth.jpg);
+  background: cover no-repeat;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
